@@ -6,7 +6,7 @@
     "NetLogo",
     "nlogo"
   ],
-  "repository": "https://github.com/atom/language-netlogo",
+  "repository": "https://github.com/m0re4u/language-netlogo",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
