@@ -32,14 +32,24 @@ patterns: [ # An array of individual pattern declarations.
   {
     include: '#comment'
   }
+  {
+    include: '#keyword'
+  }
 ]
 repository: # An array of rules. If you're going to be referencing one bit of code over and over again, stick it here so that you can edit all in one place.
-  comment: # Can be anything.
+  comment:
     patterns: [
       {
         begin: ';'
         beginCaptures: 'punctuation.definition.comment.generic-config'
         end: '$\\n?'
         name: 'comment.line.number-sign.generic-config'
+      }
+    ]
+  keyword:
+    patterns: [
+      {
+        match: '(^|\\s)(ask|ifelse|if|let|loop|end|every|not|or|repeat|report|run|set|stop|startup|to|wait|while|and)(\\s|$)'
+        name: 'keyword.control.shell'
       }
     ]
