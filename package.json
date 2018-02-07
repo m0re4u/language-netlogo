@@ -1,6 +1,6 @@
 {
   "name": "language-netlogo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Language grammar for the NetLogo scripting language",
   "keywords": [
     "NetLogo",
@@ -11,6 +11,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
