@@ -1,3 +1,6 @@
+## 0.3.0 - `.nls` as Netlogo code
+* Added `.nls` as recognized Netlogo file extension
+
 ## 0.2.0 - Control flow and logic keywords
 * Added some Control flow and logic keywords
 
