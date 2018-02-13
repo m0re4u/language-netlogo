@@ -5,7 +5,8 @@
 scopeName: 'source.nlogo' # <scope> should be a short, unique indicator for the language ("js", "php", "c", etc.)
 name: 'Netlogo' # The title that will show up in grammar selection and on your status bar.
 fileTypes: [ # An array of file extensions.
-  'nlogo'
+  'nlogo',
+  'nls'
 ]
 firstLineMatch: '' # A regular expression that is matched against the first line of the document when Atom is trying to decide if the grammar is appropriate. Useful for shell scripts, mostly.
 foldingStartMarker: '' # A regular expression that checks for the start of a foldable area (such as `{`).
