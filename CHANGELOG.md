@@ -1,3 +1,6 @@
+## 0.4.0 - Auto indent using `Ctrl+/`
+* Added language settings file to define some standards for the NetLogo language, which also enables the use of the `toggle-comment` command (activated using `Ctrl+/`)
+
 ## 0.3.0 - `.nls` as Netlogo code
 * Added `.nls` as recognized Netlogo file extension
 
