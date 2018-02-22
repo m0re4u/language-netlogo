@@ -1,3 +1,6 @@
+## 0.5.0 - Auto indent using `Ctrl+/`
+* Added new keywords, collapsing code blocks and constant highlighting on numbers and booleans
+
 ## 0.4.0 - Auto indent using `Ctrl+/`
 * Added language settings file to define some standards for the NetLogo language, which also enables the use of the `toggle-comment` command (activated using `Ctrl+/`)
 
