@@ -1,3 +1,10 @@
+## 0.6.0 - Updated grammar
+* Parentheses, brackets matching
+* Function blocks
+* Double quoted strings and operators
+* Added a (subset) of built-in functions
+* Updated keyword list and highlighting rules
+
 ## 0.5.0 - Auto indent using `Ctrl+/`
 * Added new keywords, collapsing code blocks and constant highlighting on numbers and booleans
 
